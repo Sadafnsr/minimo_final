@@ -1,0 +1,213 @@
+
+/*font-family: 'Ubuntu', sans-serif;*/
+
+*{
+	margin:  0;
+	padding: 0;
+}
+body{
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+/*header Start*/
+header{
+	
+	    padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+	margin-top: 20px;
+}
+.menu{
+	width: 70%;
+	
+	float: right;
+}
+.menu ul{
+
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a{
+	font-size:16px;
+	color:#626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	 margin: 0 54px;
+	 padding: 10px 0;
+	 transition: .9s;
+	 border: 1px solid transparent;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+
+
+
+
+
+/*header end*/
+
+.b_image{
+	width: 100%;
+}
+
+/* Perfect star*/
+.perfect{
+	padding: 60px 0;
+}
+.container2{
+	width: 75%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.wrapper{
+
+}
+.c_p{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.c_h1{
+	 font-size: 30px;
+	 font-weight: 400;
+	  margin-top: 20px;
+	  margin-bottom: 30px;
+
+}
+.c_text{
+	margin-bottom: 40px;
+	line-height: 25px;
+	 
+}
+/*blog start */
+
+.blog{
+	padding-top:60px ;
+	padding-bottom: 0;
+}
+.single{
+	width: 47%;
+	margin-bottom: 50px;
+	float: left;
+}
+.single:nth-child(even){
+	
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+/*blog end */
+.news{
+	padding: 70px 0;
+	
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #33333;
+	margin-bottom: 70px;
+	margin-top: 0;
+}
+.s_form{
+	width: 420px;
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 380;
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #626262;
+  background:transparent;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button {
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	    margin-top: 15px;
+    right: 0;
+}
+
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img {
+	background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+.load{
+	padding: 100px 0;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: playfair display;
+	font-size: 20px;
+	font-weight: 400;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.load button focus:{
+	outline: 0;
+}
+.load button:hover{
+	background-color: #626262;
+
+}
