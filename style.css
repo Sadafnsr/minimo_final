@@ -132,6 +132,7 @@ header{
 /*blog end */
 .news{
 	padding: 70px 0;
+	background-color: #dddddd;
 	
 }
 .signup{
@@ -141,6 +142,7 @@ header{
 	color: #33333;
 	margin-bottom: 70px;
 	margin-top: 0;
+	font-size: 30px
 }
 .s_form{
 	width: 420px;
